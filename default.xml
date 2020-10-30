@@ -3,7 +3,7 @@
   <remote fetch="https://github.com" name="github"/>
   <remote fetch="http://git.openembedded.org" name="oe"/>
   <remote fetch="https://github.com/STMicroelectronics" name="OpenSTLinux"/>
-  <remote fetch="https://github.com/colorandlight" name="ColorAndLight"/>
+  <remote fetch="ssh://git@github.com" name="github-private"/>
   
   <default remote="OpenSTLinux"/>
   
@@ -16,5 +16,5 @@
   <project name="meta-st-stm32mp-addons" path="layers/meta-st/meta-st-stm32mp-addons" revision="2b992cde26a4df9da34d8baee8491b3d9bc8f109"/>
   <project name="meta-st-scripts" path="layers/meta-st/scripts" revision="b600010fa49e2bd4d3f10b732405200de974d3e2"/>
   <project name="openembedded-core" path="layers/openembedded-core" remote="oe" revision="1795f30d8ab73d35710ca99064c51190dc84853e"/>
-  <project name="meta-fluora" path="layers/meta-fluora" remote="ColorAndLight" revision="0e2c3b2e71c3eeb532e82b4ec8a631e324d2a6bc"/>
+  <project name="colorandlight/meta-fluora" path="layers/meta-fluora" remote="github-private" revision="main"/>
 </manifest>
